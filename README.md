@@ -1,2 +1,2 @@
-# CustomDecal
+# PhotoToArray
 Image to Array Converter
