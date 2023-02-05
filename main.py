@@ -4,7 +4,6 @@ import sys
 import numpy
 import pyperclip
 
-
 def main():
     try:
         file = sys.argv[1]
