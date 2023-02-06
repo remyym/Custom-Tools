@@ -1,2 +1,2 @@
 # Photo2Array
-Image to Array Converter
+Photo to Array Converter
