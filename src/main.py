@@ -2,7 +2,9 @@ from PIL import Image
 
 import sys
 import numpy
-import pyperclip
+
+save_file = 'image.txt'
+
 
 def main():
     try:
@@ -18,9 +20,11 @@ def main():
 
                 print(f"Pixels: {str(len(array))}")
 
-                pyperclip.copy(array)
+                with open(save_file, 'w') as file:
+                    print("Writing image to file...")
+                    file.write(array)
 
-                print("Successfully copied image to clipboard.")
+                print(f"Successfully saved image to '{save_file}'.")
         except FileNotFoundError:
             print("Invalid image. Is it inside of this folder?")
     except IndexError:

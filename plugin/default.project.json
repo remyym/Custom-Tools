@@ -1,0 +1,11 @@
+{
+  "name": "plugin",
+  "tree": {
+    "$className": "DataModel",
+    "ServerStorage": {
+      "CustomToolsPlugin": {
+        "$path": "src"
+      }
+    }
+  }
+}
