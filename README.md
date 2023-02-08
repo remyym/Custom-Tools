@@ -2,4 +2,4 @@
 Various tools to help you through your development journey at Roblox.
 
 **🚀 Tools**:
-* Custom Decal
+* Custom Decals
